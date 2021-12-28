@@ -1,0 +1,24 @@
+{
+  "name": "crowdfunding-dapp",
+  "version": "1.0.0",
+  "description": "Launch a crowdfunding campaign - within the ethereum blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "compile": "node ethereum/compile.js",
+    "deploy": "node ethereum/deploy.js"
+  },
+  "keywords": [],
+  "author": "Ricardo Vieira",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "dotenv": "^10.0.0",
+    "fs-extra": "^10.0.0",
+    "ganache-cli": "^6.12.2",
+    "lodash": "^4.17.21",
+    "mocha": "^9.1.3",
+    "solc": "^0.8.10",
+    "web3": "^1.6.1"
+  }
+}
